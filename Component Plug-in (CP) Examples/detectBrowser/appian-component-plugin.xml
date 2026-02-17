@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<appian-component-plugin name="Browser Detector Plug-in" key="com.mycorp.sample.map">
+<appian-component-plugin name="Browser Detector Plug-in" key="com.appian.browserdetector">
   <plugin-info>
     <description>Detects the user's browser agent</description>
     <vendor name="Appian" url="http://www.appian.com" />
@@ -11,6 +11,9 @@
     <sdk-version>2.0.0</sdk-version>
     <html-entry-point>index.html</html-entry-point>
     <supported-user-agents>chrome firefox ie11 edge safari mobile</supported-user-agents>
-    <parameter name="browserName" type="Text" </parameter>
+    <parameter>
+     <name>browserName</name>
+     <type>Text</type>
+    </parameter>
   </component>
 </appian-component-plugin>
