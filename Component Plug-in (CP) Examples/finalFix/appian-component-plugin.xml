@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<appian-component-plugin name="Final Browser Agent" key="com.final.browseragent" xmlns="http://www.appian.com/ae/types/2009">
+<appian-component-plugin name="Final Browser Agent" key="com.final.browseragent">
   <plugin-info>
     <description>Returns user agent string</description>
     <vendor name="Final Test" url="https://www.example.com" />
